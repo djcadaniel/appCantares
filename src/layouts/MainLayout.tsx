@@ -14,7 +14,7 @@ export default function MainLayout({children}: MainLayoutProps) {
   return (
     <>
       <Navbar/>
-      <div onClick={handleMenuBody} className={`-mt-[80px] z-20 ${menuActive ? 'blur-sm backdrop-blur-sm' : ''}`}>
+      <div onClick={handleMenuBody} className={`-mt-[80px] z-20 ${menuActive ? 'blur-sm md:blur-none backdrop-blur-sm md:backdrop-blur-none' : ''}`}>
         {children}
       </div>
       <Footer />

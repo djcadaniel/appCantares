@@ -10,7 +10,7 @@ export default function Home() {
         <img src={banner} alt="" className='h-full object-cover w-full'/>
       </div>
       <div className='absolute top-0 left-0 right-0 bottom-0 w-full h-[100vh] bg-[rgba(0,0,0,.8)]'></div>
-      <div className='fixed bottom-5 left-5'>
+      <div className='fixed bottom-1 lg:bottom-5 left-1 lg:left-5'>
         <Redes />
       </div>
       <div className="contain2 absolute top-0 left-0 right-0 bottom-0">
