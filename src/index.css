@@ -52,3 +52,10 @@
 .secondOrder{
   order: 2;
 }
+.red a svg{
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.red:hover a svg{
+  transform: scale(1.1);
+  color: #17dbc4;
+}
